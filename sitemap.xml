@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://forlazia.com/</loc></url>
-<url><loc>https://forlazia.com/gameplay.html</loc></url>
-<url><loc>https://forlazia.com/world.html</loc></url>
-<url><loc>https://forlazia.com/heroes.html</loc></url>
-<url><loc>https://forlazia.com/news.html</loc></url>
-<url><loc>https://forlazia.com/contact.html</loc></url>
-<url><loc>https://forlazia.com/privacy.html</loc></url>
-<url><loc>https://forlazia.com/terms.html</loc></url>
+  <url><loc>https://forlazia.com/</loc></url>
+  <url><loc>https://forlazia.com/world.html</loc></url>
+  <url><loc>https://forlazia.com/pantheon.html</loc></url>
+  <url><loc>https://forlazia.com/aether.html</loc></url>
+  <url><loc>https://forlazia.com/peoples.html</loc></url>
+  <url><loc>https://forlazia.com/paths.html</loc></url>
+  <url><loc>https://forlazia.com/news.html</loc></url>
+  <url><loc>https://forlazia.com/contact.html</loc></url>
+  <url><loc>https://forlazia.com/privacy.html</loc></url>
+  <url><loc>https://forlazia.com/terms.html</loc></url>
 </urlset>

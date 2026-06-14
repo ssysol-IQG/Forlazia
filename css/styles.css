@@ -444,3 +444,14 @@ input:focus, textarea:focus, button:focus-visible, a:focus-visible { outline: 2p
 .world-hero { background:radial-gradient(circle at 75% 20%,rgba(122,106,58,.18),transparent 34rem),radial-gradient(circle at 20% 90%,rgba(161,44,47,.14),transparent 30rem); }
 @media (max-width:980px){.forlazia-home-hero{min-height:auto}.hero-backdrop{background-position:65% center}.hero-facts{justify-content:flex-start}}
 @media (max-width:640px){.forlazia-brand small{display:none}.forlazia-brand strong{font-size:1rem}.brand-mark{width:36px;height:36px}.hero-backdrop{opacity:.22}.hero-facts span{width:100%;text-align:center}}
+
+/* Lore-focused site additions */
+.two-card-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+.deity-card,.people-card,.path-card{padding:1.65rem;}
+.deity-title{margin:0 0 .35rem;color:var(--color-bronze);font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;}
+.deity-card h3,.people-card h3,.path-card h3{font-size:1.55rem;margin:.15rem 0 .75rem;}
+.deity-card strong{color:var(--color-bone);font-size:.92rem;letter-spacing:.04em;}
+.corruption-band{background:radial-gradient(circle at 50% 20%,rgba(161,44,47,.24),transparent 34rem),linear-gradient(180deg,rgba(12,8,10,.55),rgba(28,12,15,.72));}
+.feature-card[href]{display:block;}
+.feature-card[href]:focus-visible{outline:2px solid var(--color-red);outline-offset:4px;}
+@media(max-width:980px){.two-card-grid{grid-template-columns:1fr;}.primary-nav{font-size:.88rem;gap:.75rem;}}

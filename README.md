@@ -1,15 +1,13 @@
-# Forlazia.com Website
+# Forlazia.com — Lore Website
 
-Standalone static website for **Forlazia: Shards of the Veil**, visually aligned with the Iron Quill Games website.
+This version is intentionally world-first rather than game-first.
 
-## Pages
-- `index.html` — game-first home page
-- `gameplay.html` — gameplay overview
-- `world.html` — setting and lore overview
-- `heroes.html` — featured heroes, races, and archetypes
-- `news.html` — development journal
-- `contact.html` — contact and newsletter
-- `privacy.html`, `terms.html` — legal pages
+Primary sections:
+- The World
+- The Veilborn Pantheon
+- Aether, the Veil, and Soul Essence
+- The Peoples of Forlazia
+- Paths and callings
+- World Journal
 
-## Deployment
-Upload all files and folders to the document root for `forlazia.com`. Keep the `assets`, `css`, `js`, and `partials` folders intact.
+Board-game details link to ironquillgamesco.com rather than being duplicated here.
