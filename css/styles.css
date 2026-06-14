@@ -455,3 +455,41 @@ input:focus, textarea:focus, button:focus-visible, a:focus-visible { outline: 2p
 .feature-card[href]{display:block;}
 .feature-card[href]:focus-visible{outline:2px solid var(--color-red);outline-offset:4px;}
 @media(max-width:980px){.two-card-grid{grid-template-columns:1fr;}.primary-nav{font-size:.88rem;gap:.75rem;}}
+
+/* Official Forlazia logo integration */
+.forlazia-brand {
+  display: inline-flex;
+  align-items: center;
+  min-width: 168px;
+}
+.header-forlazia-logo {
+  width: 168px !important;
+  height: 68px !important;
+  object-fit: contain;
+  object-position: left center;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,.55));
+}
+.hero-forlazia-logo {
+  width: min(430px, 88%);
+  height: auto;
+  margin: -1rem 0 1rem;
+  filter: drop-shadow(0 18px 28px rgba(0,0,0,.62));
+}
+.forlazia-footer-logo {
+  width: min(260px, 80vw);
+  height: auto;
+  filter: drop-shadow(0 12px 24px rgba(0,0,0,.55));
+}
+.footer-logo-link { display:inline-flex; justify-content:center; }
+@media (max-width: 1180px) {
+  .forlazia-brand { min-width: 132px; }
+  .header-forlazia-logo { width:132px !important; height:58px !important; }
+}
+@media (max-width: 980px) {
+  .forlazia-brand { min-width:auto; }
+  .header-forlazia-logo { width:118px !important; height:52px !important; }
+}
+@media (max-width: 640px) {
+  .header-forlazia-logo { width:104px !important; height:46px !important; }
+  .hero-forlazia-logo { width:min(340px, 92%); margin-top:0; }
+}
