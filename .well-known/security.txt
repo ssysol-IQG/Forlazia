@@ -1,1 +1,4 @@
-
+Contact: mailto:info@ironquillgamesco.com
+Expires: 2027-06-14T00:00:00Z
+Preferred-Languages: en
+Canonical: https://www.ironquillgamesco.com/.well-known/security.txt
